@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #202733;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 540px;
+    margin: 120px auto;
+    background-color: #313A48;
+    border-radius: 8px;
+    text-align: center;
+    padding: 46px 24px 64px 24px;
+    position: relative;
+}
+
+.title{
+    color: #53FFAA;
+    font-size: 11px;
+    letter-spacing: 3.46px;
+    margin-bottom: 24px;
+}
+
+.quote{
+    color: #CEE3E9;
+    font-size: 24px;
+}
+
+.divider{
+    margin-top: 24px;
+}
+
+.dice-container{
+    background-color: #53FFAA;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.attribution{
+    margin-top: 100px;
+}
